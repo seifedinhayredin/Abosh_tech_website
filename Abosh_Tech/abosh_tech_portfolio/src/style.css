@@ -1,0 +1,319 @@
+.about_us{
+    color: #19322E;
+}
+.mission_title{
+    color: #19322E;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.mission_title:hover{
+    background-color: #19322E;
+    margin-left: 570px;
+    margin-right: 570px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    border-radius: 0.5rem;
+}
+.vision_title{
+    color: #19322E;
+}
+.vision_text{
+    font-weight: 500;
+    
+}
+.main_cont{
+    background-image: url("../public/images/furniture.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 3; }
+}
+.main_par{
+    font-size: 70px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 70px;
+    padding-left: 40px;
+    animation: fadeIn 2s ease-in-out;
+    color: #19322E;
+}
+.main_sec_par{
+    font-size: 70px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    padding-left: 40px;
+    animation: fadeIn 2s ease-in-out;
+    color: white;
+
+}
+.mission{
+    
+    padding: 20px;
+    background-color: #DFC296;
+}
+.mission_items{
+    background-color: #19322E;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    
+}
+.mission_items:hover {
+    background-color: black; /* Background image on hover */
+}
+.icon-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px; 
+            height: 40px; 
+            padding-left: 40%;
+            padding-bottom: 10px;
+            color: #DFC296;
+}
+.icon-container:hover{
+    color:#19322E;
+}
+.vision{
+    
+    padding: 50px;
+    padding-top: 10px;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:black;
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  
+}
+.vision:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+.vision_title{
+    
+    color: #19322E;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.vision_title:hover{
+    background-color: #19322E;
+    margin-left: 550px;
+    margin-right: 550px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    border-radius: 0.5rem;
+}
+.vision_icon{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.vision_indent{
+    text-indent: 40px;
+}
+.values{
+    padding: 20px;
+    background-color: #19322E;
+    margin-top: 30px;
+    
+    
+}
+.value_item{
+    background-color:black;
+    padding: 20px;
+    border-radius: 5px;
+    color:#DFC296;
+    font-size: large;
+    
+}
+.value_item:hover{
+    background-color: #19322E;
+}
+.value_items:hover{
+    background-color: #DFC296;
+}
+.value_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; 
+    height: 40px; 
+    padding-left: 40%;
+    padding-bottom: 10px;
+    color:#FFFFFF;
+}
+.value_title{
+    color: #DFC296;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.value_title:hover{
+    background-color:black;
+    margin-left: 550px;
+    margin-right: 550px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    border-radius: 0.5rem;
+    padding: 20px;
+}
+.contact_items{
+  
+    padding: 20px;
+    border-radius: 5px;
+    color:black;
+    font-size: large;
+    align-items: center;
+   
+    
+
+}
+.contact_items:hover{
+    background-color: #19322E;
+    color: #FFFFFF;
+}
+.contact_cont{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+  
+}
+.contact_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #DFC296;
+   
+}
+.contact_icon_text{
+    padding-left: 10px;
+    color: black;
+    font-weight: bolder;
+}
+.contact_icon_circle{
+    background-color: #19322E;
+    padding: 13px;
+    border-radius: 50%;
+}
+.contact_value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-size: x-large;
+    font-weight: bolder;
+    color: #19322E;
+    margin-top: 40px;
+}
+.contact_title:hover{
+    background-color: #19322E;
+    color: #DFC296;
+    margin-top: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 0.75rem;
+    padding-bottom: 5px;
+    padding: 20px;
+}
+.contact_email_link{
+    text-decoration: none;
+}
+.services{
+    margin-top: 10px;
+}
+.service_items{
+   
+   
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+   align-content: center;
+   padding-left: 40px;
+   padding-top: 10px;
+ width: auto;
+ 
+}
+
+
+
+.service_title{
+    color: #19322E;
+    margin-top: 40px;
+    margin-left: 550px;
+    margin-right: 560px;
+    margin-bottom: 30px;
+}
+.service_title:hover{
+    background-color: #19322E;
+    color: #DFC296;
+    margin-top: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 0.75rem;
+    padding-bottom: 5px;
+    padding: 20px;
+    align-self: center;
+}
+
+.service_items {
+    position: relative;
+    overflow: hidden;
+}
+
+.service_items::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #19322E, #19322E); /* Customize your gradient */
+    transition: top 0.5s ease;
+    z-index: -1;
+    border-radius: 0.75rem;
+   
+}
+.service_items:hover{
+    color: #FFFFFF;
+}
+
+.service_items:hover::before {
+    top: 0;
+    
+}
+.service_items_photo{
+    background-color: #DFC296;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+.service_items_title{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
